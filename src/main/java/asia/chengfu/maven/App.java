@@ -29,7 +29,7 @@ public class App {
 
         long fileSize = downloadJar(storagePath, downloadPath);
 
-        Console.log("下载成功！文件大小【{}】路径【{}/{}】 ", fileSize, storagePath, FileUtil.mainName(downloadPath));
+        Console.log("下载成功！文件大小【{}】路径【{}{}】 ", fileSize, storagePath, FileUtil.mainName(downloadPath));
     }
 
     private static long downloadJar(String storagePath, String downloadPath) {
